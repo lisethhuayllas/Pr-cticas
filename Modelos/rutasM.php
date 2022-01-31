@@ -6,7 +6,9 @@ class RutasM{
             $ruta == 'registrar' || 
             $ruta == 'salir' ||
             $ruta == 'editar'||
-            $ruta == 'registrar_usuario')
+            $ruta == 'registrar_usuario' ||
+            $ruta == 'tareas' ||
+            $ruta == 'registrar_tareas')
         {
             $pagina = "Vistas/Modulos/".$ruta. ".php";
         }

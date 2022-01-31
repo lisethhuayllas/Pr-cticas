@@ -5,8 +5,13 @@ $tareasC = new TareasC();
 $tareasC->registrarTareasC();
 ?>
 <br>  <!-- Vistas/Modulos/registrar.php -->
-<h1>AGREGAR TAREA</h1>
 
+<div class="container col-6 content-center">
+
+   <div class="card px-4 py-4">
+   <div class="col-md-12"><h4><b>AGREGAR TAREA</b></h4> 
+    <hr class="bg-primary">
+    </div>
 <form method="post" action="">
 <h2>Registrar Tarea</h2>
         Nombre  <input type="text" placeholder="nombre curso" name="nombre" required><br>
@@ -16,3 +21,7 @@ $tareasC->registrarTareasC();
         <input  type="submit" value="INGRESAR NUEVO REGISTRO" name="enviar" required>
 
 </form>
+
+</div>
+</div>
+  

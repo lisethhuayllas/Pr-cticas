@@ -3,7 +3,7 @@ $adminC = new AdminC();
 $adminC->redirigirSesionC('ingreso');
 $tareasC = new EmpleadosC();
 $tareas = $tareasC->editarTareasC();
-$empleadosC->actualizarTareasC();
+$tareasC->actualizarTareasC();
 ?>
 <br>
 <h1>EDITAR TAREA</h1>
